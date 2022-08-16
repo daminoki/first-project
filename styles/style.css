@@ -80,3 +80,43 @@
     color: #2f80ed;
     text-decoration: none;
   }
+
+.description {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+  .two-columns__brief {
+    width: 175px;
+    color: #2f80ed;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .two-columns__paragraph {
+    margin: 0;
+    line-height: 34px;
+    font-size: 24px;
+  }
+
+  .two-columns__span-accent {
+    font-weight: 600;
+    line-height: 34px;
+    font-size: 24px;
+  }
