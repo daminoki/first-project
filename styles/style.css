@@ -121,3 +121,47 @@
     line-height: 34px;
     font-size: 24px;
   }
+
+  .digits {
+    padding: 100px 0;
+  }
+
+  .section-title {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto 20px;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  .section-subtitle {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto 60px;
+    line-height: 34px;
+    font-size: 24px;
+  }
+
+  .table {
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .table__cell {
+    width: 250px;
+  }
+
+  .table__heading {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .table__text {
+    line-height: 1.2;
+    font-size: 18px;
+  }
